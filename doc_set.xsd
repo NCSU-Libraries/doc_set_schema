@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://lib.ncsu.edu/schema/doc_set" targetNamespace="http://lib.ncsu.edu/schema/doc_set">
+    <xs:element name="docSet">
+        <xs:complexType>
+            <xs:choice>
+                <xs:any minOccurs="0" maxOccurs="unbounded"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
